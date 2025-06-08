@@ -3,3 +3,9 @@
 ### Simple ML Project how to integrate Fastapi and streamlit app
 - Used the FastAPI
 - Used the Streamlit and ML Model
+```
+streamlit run frontend.py
+```
+```
+uvicorn ml_app:app --reload
+```
