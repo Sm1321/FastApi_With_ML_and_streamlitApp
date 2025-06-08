@@ -1,9 +1,6 @@
-
-from pydantic import BaseModel, Field, computed_field,field_validator
+from pydantic import BaseModel, Field, computed_field, field_validator
 from typing import Literal, Annotated
-from config.city_tier import tier_2_cities,tier_1_cities
-
-
+from config.city_tier import tier_1_cities, tier_2_cities
 
 
 # pydantic model to validate incoming data
@@ -17,7 +14,6 @@ class UserInput(BaseModel):
     occupation: Annotated[Literal['retired', 'freelancer', 'student', 'government_job',
        'business_owner', 'unemployed', 'private_job'], Field(..., description='Occupation of the user')]
     
-    #Adding the Computeed feilds for the Feature Engineering
     @field_validator('city')
     @classmethod
     def normalize_city(cls, v: str) -> str:
