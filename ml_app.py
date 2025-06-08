@@ -20,6 +20,7 @@ def health_check():
         'model_loaded': model is not None
     }
 
+#adding the presion response
 @app.post('/predict', response_model=PredictionResponse)
 def predict_premium(data: UserInput):
 
