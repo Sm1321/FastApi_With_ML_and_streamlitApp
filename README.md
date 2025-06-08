@@ -4,7 +4,7 @@
 - Used the FastAPI
 - Used the Streamlit and ML Model
 
-### Use these below Commands to run the File
+### Use these below Commands to run 
 ```
 streamlit run frontend.py
 ```
