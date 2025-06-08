@@ -1,5 +1,5 @@
 # FastApi_With_ML_and_streamlitApp
-- These Concepts i have learned from the Youtube from CampusX Youtube channel and all creadits goes to him and thank you nithish sir.
+- These Concepts i have learned from the Youtube from `CampusX` Youtube channel and all creadits goes to him and thank you `Nithish sir`.
 ### Simple ML Project how to integrate Fastapi and streamlit app
 - Used the FastAPI
 - Used the Streamlit and ML Model
