@@ -3,6 +3,8 @@
 ### Simple ML Project how to integrate Fastapi and streamlit app
 - Used the FastAPI
 - Used the Streamlit and ML Model
+
+### Use these below Commands to run the File
 ```
 streamlit run frontend.py
 ```
