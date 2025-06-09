@@ -7,7 +7,6 @@ st.title("Insurance Premium Category Predictor")
 
 st.markdown("Enter your Details Below")
 
-
 # Input fields
 age = st.number_input("Age", min_value=1, max_value=119, value=30)
 weight = st.number_input("Weight (kg)", min_value=1.0, value=65.0)
